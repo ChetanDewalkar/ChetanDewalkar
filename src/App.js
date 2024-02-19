@@ -1,7 +1,12 @@
-import "./App.css";
+import React from "react";
+import Body from "./Components.js/Body";
 
-function App() {
-  return <div className="App font-bold bg-orange-200">Namaste react</div>;
-}
+const App = () => {
+  return (
+    <div>
+      <Body />
+    </div>
+  );
+};
 
 export default App;
